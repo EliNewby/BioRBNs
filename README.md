@@ -14,5 +14,7 @@ The generateROFRulesets.py file contains the function `generateRulesets` along w
 
 ## References
 [1] Eli Newby, Jorge Gómez Tejeda Zañudo, Réka Albert; Structure-based approach to identify driver nodes in ensembles of biologically inspired Boolean networks. *Phys. Rev. Res.* Jul 2023; 5 (3):033009
+
 [2] Claus Kadelka, Taras-Michael Butrie, Evan Hilton, Jack Kinseth, Addison Schmidt, and Haris Serdarevic, A Meta-Analysis of Boolean Network Models Reveals Design Principles of Gene Regulatory Networksm arXiv:2009.01216.
+
 [3] Ajay Subbaroyan, Olivier C Martin, Areejit Samal, Minimum complexity drives regulatory logic in Boolean models of living systems, *PNAS Nexus*, Volume 1, Issue 1, March 2022, pgac017,
