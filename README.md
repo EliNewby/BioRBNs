@@ -12,6 +12,16 @@ The buildNetworks.py file contains the function `buildNetwork`, which takes a gi
 ### generateRulesets
 The generateROFRulesets.py file contains the function `generateRulesets` along with a helper function. The function takes an input networkx DiGraph (with Boolean edge attribute 'negative' to indicate if an edge is a negative edge) and writes 'numRulesets' Boolean rule-sets to a directory that is specified by the user in the Booleannet file format.
 
+### Example
+This simple example shows how to generate a single 50 node network and then write 10 Boolean rule-sets for this network:
+```
+from buildNetworks import buildNetwork
+from generateROFRulesets import generateRulesets
+
+G = buildNetwork(50)
+generateRulesets(G,10,'TestRulesets')
+```
+
 ## References
 [1] Eli Newby, Jorge Gómez Tejeda Zañudo, Réka Albert; Structure-based approach to identify driver nodes in ensembles of biologically inspired Boolean networks. *Phys. Rev. Res.* Jul 2023; 5 (3):033009
 
