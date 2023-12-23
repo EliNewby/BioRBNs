@@ -49,7 +49,7 @@ def generateNestedCanalyzingFunctionRoF(G, node, rng, bias = 0.5):
 
 """
 Function to generate Boolean Nested Canalyzing Rule-sets for a given graph
-inputs:
+Inputs:
     G = graph
     numRulesets = number of rule-sets to generate
     directoryPath = path to folder to save rule-sets in
@@ -59,6 +59,8 @@ inputs:
                  if this value is set to 0, every generated rule-set will be output without checking attractor number
     bias = Probability that the function output is 1
     seed = Random number generator seed
+Output:
+    Writes 'numRulesets' rulesets to 'directoryPath' directory in the Booleannet format
 """
 
 def generateRulesets(G, numRulesets, directoryPath, fewestAtts = 1, bias = 0.5, seed = 0):
