@@ -84,7 +84,7 @@ def generateRulesets(G, numRulesets, directoryPath, fewestAtts = 1, bias = 0.5, 
             max_simulate_size = 0
             ar = sm.AttractorRepertoire.from_primes(primes, max_simulate_size=max_simulate_size)
             if(ar.fewest_attractors > 1):
-                writePath = directoryPath+'/NCFs_'+str(numGood)+'.booleannet'
+                writePath = directoryPath+'/ROFs_'+str(numGood)+'.booleannet'
                 isExist = os.path.exists(directoryPath)
                 if not isExist:
                   os.makedirs(directoryPath)       
